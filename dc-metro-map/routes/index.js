@@ -3,7 +3,7 @@ var router = express.Router();
 var rest = require('restler');
 
 //-----------------------------------------------------------------------------
-// CONSTANTS AND HELPERS # Fire the hook
+// CONSTANTS AND HELPERS 
 //-----------------------------------------------------------------------------
 var API_KEY_PLACEHOLDER = process.env.WMATA_API_KEY || '2cc419c974f94b5486dd79d698f7d3f6';
 var BEERME = process.env.BEERME || false;
